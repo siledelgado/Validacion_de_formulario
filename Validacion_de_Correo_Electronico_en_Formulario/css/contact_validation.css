@@ -1,0 +1,146 @@
+html {
+  height: 100%;
+  /* Establece que el tamaño del HTML ocupe el 100% de la altura disponible */
+}
+
+body {
+  position: relative;
+  /* Establece posición relativa para el cuerpo del documento */
+  padding-bottom: 75px;
+  /* Espaciado inferior de 75px para evitar que el contenido se solape con el pie de página */
+  min-height: 100%;
+  /* Establece que el cuerpo tenga como mínimo el 100% de la altura */
+}
+
+.center {
+  text-align: center;
+  /* Centra el texto y otros elementos dentro de la clase .center */
+}
+
+.section_inner {
+  padding: 50px 10% 30px;
+  /* Espaciado interno de 50px arriba, 10% a los lados y 30px abajo */
+}
+
+.section_title {
+  text-align: center;
+  /* Centra el texto de la clase .section_title */
+  margin-bottom: 50px;
+  /* Margen inferior de 50px para separación */
+}
+
+.contact {
+  width: 100%;
+  /* Ancho completo para la clase .contact */
+  margin-bottom: 30px;
+  /* Margen inferior de 30px para separación */
+}
+
+.contact_line {
+  height: 50px;
+  /* Altura fija de 50px para las líneas de contacto */
+  line-height: 50px;
+  /* Establece la misma altura de línea que la altura para centrar verticalmente el texto */
+}
+
+.contact_sign {
+  width: 25%;
+  /* Ancho del 25% para el área de la etiqueta de contacto */
+  background: #beb9b7;
+  /* Fondo gris claro para la etiqueta de contacto */
+  border: solid 1px #beb9b7;
+  /* Borde sólido del mismo color que el fondo */
+  text-align: left;
+  /* Alineación del texto a la izquierda dentro de la etiqueta */
+  padding: 0 20px;
+  /* Relleno interno de 0 en la parte superior e inferior y 20px a los lados */
+}
+
+.contact_input {
+  width: 75%;
+  /* Ancho del 75% para el área de entrada de contacto */
+  border: solid 1px #beb9b7;
+  /* Borde sólido del mismo color que el fondo de la etiqueta */
+}
+
+.contact_content {
+  height: 100px;
+  /* Altura fija de 100px para el área de contenido de contacto */
+}
+
+.contact_input input,
+select,
+textarea {
+  border: none;
+  /* Elimina el borde por defecto de los inputs, selects y textareas */
+  width: 99%;
+  /* Ancho del 99% para asegurar que los elementos ocupen todo el espacio disponible */
+}
+
+.contact_input input,
+select {
+  height: 50px;
+  /* Altura fija de 50px para inputs y selects */
+}
+
+.contact_input textarea {
+  height: 100px;
+  /* Altura fija de 100px para textareas */
+}
+
+.personal_information {
+  background: #e6e6e6;
+  /* Fondo gris claro para el área de información personal */
+  padding: 10px;
+  /* Relleno interior de 10px */
+  height: 100px;
+  /* Altura fija de 100px */
+  overflow: scroll;
+  /* Barra de desplazamiento cuando el contenido excede el tamaño del área */
+  margin-bottom: 20px;
+  /* Margen inferior de 20px para separación */
+}
+
+.contact_btn_area {
+  display: flex;
+  /* Utiliza el modelo de caja flexible para el área de botones de contacto */
+  justify-content: center;
+  /* Centra los elementos horizontalmente dentro del contenedor */
+  padding: 20px 0;
+  /* Relleno superior e inferior de 20px y 0 a los lados */
+}
+
+.contact_btn {
+  padding: 10px 20px;
+  /* Relleno interior de 10px arriba y abajo, 20px a los lados */
+  border: none;
+  /* Elimina el borde de los botones */
+  border-radius: 5px;
+  /* Borde redondeado con un radio de 5px */
+}
+
+.contact_btn+.contact_btn {
+  margin-left: 10px;
+  /* Margen izquierdo de 10px para el segundo botón en adelante */
+}
+
+.submit_btn {
+  background: #9852a5;
+  /* Fondo púrpura oscuro para el botón de enviar */
+  color: #fff;
+  /* Texto blanco para el botón de enviar */
+}
+
+.reset_btn {
+  background: #e6e6e6;
+  /* Fondo gris claro para el botón de reiniciar */
+}
+
+.alert {
+  color: #fff;
+  /* Texto blanco para las alertas */
+  padding: 20px;
+  /* Relleno interior de 20px */
+  background: #d14539;
+  /* Fondo rojo oscuro para las alertas */
+}

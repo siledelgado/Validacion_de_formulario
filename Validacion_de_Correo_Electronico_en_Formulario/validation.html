@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DIC Café</title>
+    <!-- TÍTULO DE LA PÁGINA -->
+    <link href="css/contact_validation.css" rel="stylesheet">
+    <!-- ENLACE A LA HOJA DE ESTILOS PARA LA VALIDACIÓN DEL FORMULARIO -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <!-- ENLACE A LA HOJA DE ESTILOS PARA NORMALIZAR -->
+  </head>
+  <body>
+    <section class="section_inner">
+      <!-- SECCIÓN INTERIOR -->
+      <div class="section_title">
+        <!-- TÍTULO DE LA SECCIÓN -->
+        <h1>Contacto</h1>
+        <p>Envíanos un mensaje.</p>
+      </div>
+      <form action="#" method="POST" id="form">
+        <!-- FORMULARIO DE CONTACTO -->
+        <table class="contact">
+          <!-- TABLA PARA LOS CAMPOS DEL FORMULARIO -->
+          <tbody id="tbody">
+            <!-- CUERPO DE LA TABLA -->
+            <tr class="contact_line">
+              <!-- FILA PARA EL CAMPO DE NOMBRE -->
+              <td class="contact_sign"><label for="name"><b style="font-size: larger;">Nombre:</b></label></td>
+              <td class="contact_input"><input type="text" name="name" id="name"></td>
+            </tr>
+            <tr class="contact_line">
+              <!-- FILA PARA EL CAMPO DE CORREO ELECTRÓNICO -->
+              <td class="contact_sign"><label for="email"><b style="font-size: larger;">Correo Electrónico:</b></label></td>
+              <td class="contact_input"><input type="email" name="email" id="email"></td>
+            </tr>
+            <tr class="contact_line">
+              <!-- FILA PARA LA CONFIRMACIÓN DEL CORREO ELECTRÓNICO -->
+              <td class="contact_sign"><label for="email_confirm"><b style="font-size: larger;">Confirmar Correo Electrónico:</b></label></td>
+              <td class="contact_input"><input type="email" name="email_confirm" id="email_confirm" autocomplete="off"></td>
+            </tr>
+            <tr class="contact_content">
+              <!-- FILA PARA EL CAMPO DE MENSAJE -->
+              <td class="contact_sign"><label for="content"><b style="font-size: larger;">Mensaje:</b></label></td>
+              <td class="contact_input"><textarea name="content" id="content"></textarea></td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="contact_btn_area">
+          <!-- ÁREA PARA LOS BOTONES DEL FORMULARIO -->
+          <button type="reset" class="contact_btn reset_btn"><b style="font-size: larger;">Reiniciar.</b></button>
+          <button type="submit" class="contact_btn submit_btn"><b style="font-size: larger;">Enviar.</b></button>
+        </div>
+      </form>
+    </section>
+    <script src="javascripts/validation.js"></script>
+    <!-- ENLACE AL ARCHIVO DE VALIDACIÓN DEL FORMULARIO -->
+  </body>
+</html>
